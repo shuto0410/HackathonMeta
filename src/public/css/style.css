@@ -1,0 +1,54 @@
+header{
+    background-color:rgb(19,25,33);
+}
+
+.header-line-height{
+    line-height:1px;
+    display: inline-block;
+}
+
+
+.language-setupLink-set{
+   height: 70%;
+} 
+
+
+.location-mark-set{
+    margin-top: 6px;
+    height: 20px;
+}
+
+.location-text{
+    color:rgb(204,204,204);
+    font-size: 12px;
+    margin-bottom:-3px;
+}
+
+.location-address{
+    font-weight:400;
+}
+
+.amazon-logo-size{
+   height: 50%;
+}
+
+.select-size{
+    height: 40px;
+    font-size: 80%;
+    border-radius: 5px 0 0 5px ;
+}
+
+.search-form-set{
+    height: 40px;
+    padding-right: 180px;
+}
+
+.submit-button{
+   height: 40px;
+   padding: 5px 13px 0px 9px;
+   border-radius: 0 5px 5px 0;
+   background-color: rgb(254,189,104);
+
+}
+
+
