@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -51,
-    "scrollLeft": -270,
-    "zoomLevel": 0.6,
+    "scrollTop": -222,
+    "scrollLeft": -667,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -143,7 +143,7 @@
           "active": false,
           "left": 0,
           "top": 462,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -278,7 +278,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -291,13 +291,59 @@
               "widthDefault": 60
             },
             "id": "f5896d07-1bfd-4807-8c40-36e5a9716a69"
+          },
+          {
+            "name": "description",
+            "comment": "",
+            "dataType": "text",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 73.98094177246094,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "449ee969-5b7e-45ef-8fba-187f616fd25d"
+          },
+          {
+            "name": "company",
+            "comment": "",
+            "dataType": "string",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60.86396789550781,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9ebd15b7-19d2-4618-b0e2-bd9ce563f004"
           }
         ],
         "ui": {
           "active": false,
-          "left": 514,
+          "left": 515,
           "top": 93,
-          "zIndex": 2,
+          "zIndex": 5,
           "widthName": 60.148956298828125,
           "widthComment": 60
         },
@@ -438,36 +484,13 @@
               "widthDefault": 60
             },
             "id": "99fb9e75-f816-4a94-a007-d11378c81710"
-          },
-          {
-            "name": "is_sending",
-            "comment": "発送中かどうか",
-            "dataType": "BOOLEAN",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 69.10592651367188,
-              "widthComment": 93,
-              "widthDataType": 67.92295837402344,
-              "widthDefault": 60
-            },
-            "id": "58a7bddb-a65e-4185-baaa-313d4f149b20"
           }
         ],
         "ui": {
           "active": false,
           "left": 976,
           "top": 467,
-          "zIndex": 5,
+          "zIndex": 6,
           "widthName": 60,
           "widthComment": 60
         },
@@ -475,7 +498,7 @@
         "id": "fea68370-a200-4fe5-a8c1-890b318662a8"
       },
       {
-        "name": "tmp_orders",
+        "name": "temporary_orders",
         "comment": "",
         "columns": [
           {
@@ -553,7 +576,7 @@
           "left": 516,
           "top": 435,
           "zIndex": 4,
-          "widthName": 76.45094299316406,
+          "widthName": 118.07691955566406,
           "widthComment": 60
         },
         "visible": true,
@@ -585,8 +608,8 @@
           "columnIds": [
             "f8539ea3-6a77-4459-a785-a2aa0ca7be69"
           ],
-          "x": 877.9839324951172,
-          "y": 141,
+          "x": 878.9839324951172,
+          "y": 151.25,
           "direction": "right"
         },
         "constraintName": "fk_category_to_products",
@@ -602,8 +625,8 @@
           "columnIds": [
             "26486c10-d50a-45d2-8bbd-1f9f85fc0860"
           ],
-          "x": 877.9839324951172,
-          "y": 237,
+          "x": 878.9839324951172,
+          "y": 267.75,
           "direction": "right"
         },
         "end": {
@@ -612,7 +635,7 @@
             "0d32acb6-0bd5-4718-ae05-88142bd92f22"
           ],
           "x": 976,
-          "y": 504.75,
+          "y": 499.625,
           "direction": "left"
         },
         "constraintName": "fk_products_to_order",
@@ -638,7 +661,7 @@
             "99fb9e75-f816-4a94-a007-d11378c81710"
           ],
           "x": 976,
-          "y": 580.25,
+          "y": 564.875,
           "direction": "left"
         },
         "constraintName": "fk_user_to_orders",
@@ -654,8 +677,8 @@
           "columnIds": [
             "26486c10-d50a-45d2-8bbd-1f9f85fc0860"
           ],
-          "x": 695.9919662475586,
-          "y": 285,
+          "x": 696.9919662475586,
+          "y": 326,
           "direction": "bottom"
         },
         "end": {
