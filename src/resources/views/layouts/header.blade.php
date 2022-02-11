@@ -82,9 +82,94 @@
     </div>
 
     </header>
-    @yield('content')
 
-    
+    @yield('content')
+<p>あえて空白を作っています空白を作っています空白を作っています空白を作っています</p>
+    <footer>
+        <div class="bg-dark text-white text-center p-1">
+            <p class="mt-2">トップへ戻る</p>
+        </div>
+
+        <div class="footer-list bg-dark text-white border-bottom border-white d-flex">
+            <div class="col-lg-3">
+                <p>Amazonについて</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+            </div>
+            <div class="col-lg-3">
+                <p>Amazonでビジネス</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+            </div>
+            <div class="col-lg-3">
+                <p>Amazonでお支払い</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+            </div>
+
+            <div class="col-lg-3">
+                <p>ヘルプ＆ガイド</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+            </div>
+
+        </div>
+         
+        <div class="bg-dark p-4 d-flex">
+            <img src="{{asset('img/footer_amazon_logo.png')}}" alt="フッターのamazonロゴ（押すとトップに戻る" class="col-lg-1">
+                <select name="footer-language-set" class="select-size col-lg-1 bg-dark text-white ms-5">
+                <option value="選択肢1">日本語</option>
+                <option value="選択肢2">選択肢2</option>
+                <option value="選択肢3">選択肢3</option>
+                </select>
+            <div class="bg-dark border border-white text-white pe-3 ps-3 ms-2">
+                <p>日本</p>
+            </div>
+        </div>
+        <div class="d-flex bg-dark text-white">
+            <div class="col-lg-2 small">
+                <p>Amazon Advertising</p>
+                <p>Amazonビジネス</p>
+            </div>
+
+            <div class="col-lg-2 small">
+                <p>Audible</p>
+                <p>AmazonGrobal</p>
+            </div>
+
+            <div class="col-lg-2 small">
+                <p>アマゾンウェブサービス</p>
+                <p>Book Depository</p>
+            </div>
+
+            <div class="col-lg-2 small">
+                <p>Amazonアウトレット</p>
+                <p>ShopBop</p>
+            </div>
+        </div>
+
+        <div class="d-flex bg-dark text-white">
+            <p class="ms-1">利用規約</p>
+            <p class="ms-1">|</p>
+            <p class="ms-1">プライバシー規約</p>
+            <p class="ms-1">|</p>
+            <p class="ms-1">パーソナライズド広告規約</p>
+            <p class="ms-1">|</p>
+            <p class="ms-1">各種規約</p>
+            <p class="ms-1">|</p>
+            <p class="ms-1">©︎1996~2021,Amazon.com,Inc. or its affiliates</p>
+        </div>
+
+
+    </footer>
   
     <script src="{{asset("js/modal.js")}}"></script>
 </body>
