@@ -26,34 +26,34 @@
                     </div>
             </div>
     
-            <div class="col-lg-5">
+            <div class="col-lg-6">
                 <div class="mt-2 d-flex">
-                    <select name="example" class="select-size col-lg-3">
-                        <option value="選択肢1">すべてのカテゴリー</option>
+                    <select name="example" class="select-size col-lg-2">
+                        <option value="選択肢1">すべて</option>
                         <option value="選択肢2">選択肢2</option>
                         <option value="選択肢3">選択肢3</option>
                     </select>
                    
-                        <input type="search" class="search-form-set col-lg-8">
+                        <input type="search" class="search-form-set col-lg-9">
                         <input type="submit" class="submit-button col-lg-1" value="&#9794;">
                 
                 </div>
             </div>
     
             
-            <div class="mt-3 d-flex col-lg-5">
+            <div class="mt-3 d-flex col-lg-3">
 
-                <div class="col-lg-3">
+                <div class="col-lg-2">
                     <img src="{{asset('img/language_setupLink.png')}}" alt="言語設定に飛ぶためのボタン" class="language-setupLink-set col-lg-7">
                 </div>
                 
-                <a class="text-white header-line-height col-lg-4" data-toggle="modal" data-target="#testModal">  
+                <a class="text-white header-line-height col-lg-6" data-toggle="modal" data-target="#testModal">  
                     <p>だんのさん</p>
                     <p>アカウント＆リスト</p>
                 </a>
     
                 
-                <div class="text-white header-line-height  col-lg-3"> 
+                <div class="text-white header-line-height  col-lg-4"> 
                     <p>返品もこちら</p>
                     <p>注文履歴</p>
                 </div>
@@ -62,8 +62,25 @@
                     <p>カート</p>
                 </div> 
             </div>
+
+        </div>
+        
     </div>
-</div>
+
+    <div class="bg-dark text-white d-flex">
+        <img src="{{asset('img/menu_link_img.png')}}" alt="全てのコンテンツを見る" class="col-lg-1">
+    <div class="col-lg-7 d-flex mt-2">
+        <p class="">amazonポイント:1</p>
+        <p class="">ライフ</p>
+        <p class="">amazonファッション</p>
+        <p class="">DIY・工具</p>
+        <p class="">ビューティ＆パーソナルケア</p>
+        <p class="">おもちゃ＆ホビー</p>
+        <p class="">再購入</p>
+    </div>
+        <img src="{{asset('img/amazonAudible.png')}}" alt="audibleの広告" class="col-lg-4">
+    </div>
+
     </header>
     @yield('content')
 
