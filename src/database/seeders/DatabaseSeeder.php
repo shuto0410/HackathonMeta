@@ -21,7 +21,6 @@ class DatabaseSeeder extends Seeder
         ->hasProducts(20)
         ->create();
         $this->call([
-            TemporaryOrderSeeder::class,
             OrderSeeder::class,
         ]);
     }
