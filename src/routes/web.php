@@ -17,4 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/buy', function () {
+    return view('buy');
+
+
 Route::get('/mail', [MailSendController::class, 'send']);
+
